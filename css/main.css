@@ -1,0 +1,35 @@
+/*
+    * Created By: Anass LAARIBI
+*/
+:root {
+    --color1: #1e1d1d;
+    --color2: #2e2e2e;
+    --color3: #d2b33a;
+    --color4: #ececec;
+}
+/* --- General CSS --- */
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* --- Start Navbar ---- */
+.navbar {
+    background-color: var(--color1);
+}
+/* --- End Navbar ---- */
+
+/* --- Start Home --- */
+.home {
+    background-color: #2e2e2e;
+    color: #fff;
+    height: calc(100vh - 56px);
+}
+.home img {
+    height: calc(100vh - 56px);
+}
+/* --- End Home --- */

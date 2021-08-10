@@ -6,6 +6,7 @@
     --color2: #2e2e2e;
     --color3: #d2b33a;
     --color4: #ececec;
+    --color5: #dbdbdb;
 }
 /* --- General CSS --- */
 
@@ -67,5 +68,49 @@ body{
     border-radius: 30px;
     background-color: var(--color2);
     color: var(--color3);
+}
+/* --- End Home --- */
+/* --- Start Formations --- */
+.formations {
+    background-color: var(--color4);
+}
+.formations h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.formations .divider {
+    height: 3px;
+    background-color: var(--color3);
+    display: inline-block;
+    width: 90px;
+    margin: 0px 8px 8px;
+}
+.formations i {
+    transform: rotate(45deg);
+    font-size: 1.4rem;
+    color: var(--color3);
+}
+.formations .card {
+    margin: 30px 0 0;
+    background-color: var(--color5);
+    border: none;
+}
+.formations .card .card-body h2 {
+    border: 2px solid var(--color1);
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.formations .card .card-body h4 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.formations .card .card-body h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.formations .card .card-body p{
+    
 }
 /* --- End Home --- */

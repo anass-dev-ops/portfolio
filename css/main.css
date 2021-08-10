@@ -37,7 +37,7 @@ body{
     width: 274px;
     border: 1px solid var(--color3);
     border-radius: 30px;
-    background-color: var(--color2);
+    background: none;
     color: var(--color3);
 }
 
@@ -169,3 +169,23 @@ body{
     font-weight: 400;
 }
 /* --- End Experiances --- */
+/* --- Start projects --- */
+.projects {
+    background-color: var(--color2);
+    color: var(--color4);
+}
+.projects .pr-box {
+    background-color: var(--color1);
+    padding: 50px;
+}
+.projects .pr-box .h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.projects .pr-box .h3 {
+    font-size: 2rem;
+}
+.projects .pr-box .h4 {
+    font-size: 1.2rem;
+}
+/* --- End projects --- */

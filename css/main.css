@@ -40,7 +40,11 @@ body{
     background: none;
     color: var(--color3);
 }
-
+.btn-gen:hover {
+    border: 1px solid var(--color2);
+    background-color: var(--color3);
+    color: var(--color2);
+}
 
 /* --- Start Navbar ---- */
 .navbar {
@@ -142,6 +146,7 @@ body{
     background: none;
     border: 2px solid #999;
     border-radius: 22px;
+    margin: 30px 0;
 }
 .experiances .card .card-body img {
     width: 150px;
@@ -189,3 +194,31 @@ body{
     font-size: 1.2rem;
 }
 /* --- End projects --- */
+/* --- Start Contact --- */
+.contact {
+    background-color: var(--color2);
+    color: var(--color4);
+}
+.contact .item-cn {
+    text-align: left;
+    margin: 10px 0 0 100px;
+}
+.contact .item-cn i {
+    font-size: 1.3rem;
+    margin-right: 17px;
+}
+.contact .item-cn a {
+    color: #fff;
+    font-size: 1.4rem;
+}
+.contact .btn-gen i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+/* --- Start Contact --- */
+/* --- Start Footer --- */
+.footer {
+    background-color: var(--color1);
+    color: var(--color4);
+}
+/* --- End Footer --- */

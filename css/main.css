@@ -211,7 +211,8 @@ body{
 .projects .pr-box .h5 div {
     width: 18px;
     height: 18px;
-    background-color: red;
+    background-color: #f00;
+    color: #f00;
     border-radius: 50%;
     display: inline-block;
     margin-right: 4px;

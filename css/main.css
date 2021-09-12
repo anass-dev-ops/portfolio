@@ -195,6 +195,25 @@ body{
 .projects .pr-box .h4 {
     font-size: 1.2rem;
 }
+.projects .pr-box .h5 {
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+@keyframes clignoter {
+    0%   { opacity:1; }
+    40%   {opacity:0; }
+    100% { opacity:1; }
+}
+.projects .pr-box .h5 div {
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 4px;
+}
 /* --- End projects --- */
 /* --- --- */
 .competances h3 {
